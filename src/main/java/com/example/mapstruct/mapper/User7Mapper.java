@@ -18,6 +18,7 @@ import java.util.List;
  */
 @Mapper
 public interface User7Mapper extends BaseMapper<UserDTO13, UserVO13> {
+
     User7Mapper INSTANCE = Mappers.getMapper(User7Mapper.class);
 
     @Mapping(source = "wallet", target = "wallet", numberFormat = "$#.00")

@@ -12,6 +12,7 @@ import java.util.Date;
  */
 @Named("dateMapper1")
 public class DateMapper1 {
+
     public String toString(Date date) {
         return date != null ? new SimpleDateFormat("yyyy-MM-dd").format(date) : null;
     }

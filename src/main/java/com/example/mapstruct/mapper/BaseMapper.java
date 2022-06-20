@@ -8,12 +8,13 @@ import java.util.List;
  * @description:
  */
 public interface BaseMapper<SOURCE, TARGET> {
+
     TARGET to(SOURCE var1);
 
     List<TARGET> to(List<SOURCE> var1);
 
-
     SOURCE from(TARGET var1);
 
     List<SOURCE> from(List<TARGET> var1);
+
 }

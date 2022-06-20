@@ -14,6 +14,7 @@ import org.mapstruct.factory.Mappers;
  */
 @Mapper
 public interface User1Mapper extends BaseMapper<UserDTO, UserVO1>{
+
     User1Mapper INSTANCE = Mappers.getMapper(User1Mapper.class);
 
     @Mappings({

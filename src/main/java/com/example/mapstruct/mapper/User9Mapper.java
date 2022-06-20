@@ -13,6 +13,7 @@ import org.mapstruct.factory.Mappers;
  */
 @Mapper
 public interface User9Mapper extends BaseMapper<UserDTO15, UserVO2> {
+
     User9Mapper INSTANCE = Mappers.getMapper(User9Mapper.class);
 
     @Mapping(source = "addressDTO.country", target = "country")

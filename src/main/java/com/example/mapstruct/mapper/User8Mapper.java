@@ -15,6 +15,7 @@ import java.util.List;
  */
 @Mapper
 public interface User8Mapper extends BaseMapper<UserDTO14, UserVO14> {
+
     User8Mapper INSTANCE = Mappers.getMapper(User8Mapper.class);
 
     @Mapping(source = "deposit", target = "deposit", numberFormat = "#.##E0")

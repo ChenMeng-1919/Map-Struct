@@ -19,6 +19,7 @@ import org.mapstruct.factory.Mappers;
         DateMapper2.class
 })
 public interface User6Mapper extends BaseMapper<UserDTO2, UserVO12> {
+
     User6Mapper INSTANCE = Mappers.getMapper(User6Mapper.class);
 
     @Mappings({

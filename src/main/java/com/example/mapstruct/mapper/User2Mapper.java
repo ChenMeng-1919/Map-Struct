@@ -15,6 +15,7 @@ import org.mapstruct.factory.Mappers;
  */
 @Mapper
 public interface User2Mapper {
+
     User2Mapper INSTANCE = Mappers.getMapper(User2Mapper.class);
 
     // 如果无特殊字段，可以不配置Mappings
