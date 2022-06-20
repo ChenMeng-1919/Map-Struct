@@ -9,5 +9,6 @@ import lombok.Data;
  */
 @Data
 public class UserVO3 {
+
     private String nickName;
 }

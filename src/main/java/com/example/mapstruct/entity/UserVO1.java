@@ -14,6 +14,7 @@ import lombok.ToString;
 @ToString
 @NoArgsConstructor
 public class UserVO1 {
+
     private String name;
 
     private Integer age;

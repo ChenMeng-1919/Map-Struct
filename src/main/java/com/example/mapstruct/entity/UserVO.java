@@ -16,6 +16,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class UserVO {
+
     private String name;
 
     private Integer age;
